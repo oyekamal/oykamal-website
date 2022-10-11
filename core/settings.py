@@ -136,7 +136,7 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 
-SITE_ID = 1
+SITE_ID = 2 # 2 because its using 127.0.0.1:8000
 
 LOGIN_REDIRECT_URL = '/'
 
